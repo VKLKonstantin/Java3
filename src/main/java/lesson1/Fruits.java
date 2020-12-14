@@ -8,7 +8,7 @@ public class Fruits {
         this.weight = weight;
     }
 
-    public float getWeight(float weight) {
+    public float getWeight() {
         return weight;
     }
 

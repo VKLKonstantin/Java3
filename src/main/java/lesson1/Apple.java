@@ -9,8 +9,4 @@ public class Apple extends Fruits {
     public Apple() {
         super(WEIGHT);
     }
-
-    public static float getWEIGHT() {
-        return WEIGHT;
-    }
 }

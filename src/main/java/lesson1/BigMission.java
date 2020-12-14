@@ -26,8 +26,8 @@ public class BigMission {
         appleBox2.addFruit(apple);
 
         //вывод массы ящиков
-        System.out.println("Вес " + orangeBox.getWeightBox(orange.getWEIGHT()));
-        System.out.println("Вес " + appleBox.getWeightBox(apple.getWEIGHT()));
+        System.out.println("Вес " + orangeBox.getWeightBox());
+        System.out.println("Вес " + appleBox.getWeightBox());
 
         //пересыпание
         appleBox2.shiftFruits(appleBox);

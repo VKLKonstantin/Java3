@@ -2,17 +2,15 @@ package lesson1;
 
 import java.util.ArrayList;
 
-public class Box<T> {
+public class Box<T extends  Fruits> {
 
     private float weight = 0;
     public ArrayList<T> storage = new ArrayList<T>();
 
 
-    public float getWeightBox(float weightFruit) { //взвешивание
+    public float getWeightBox() { //взвешивание
 
-        weight = (float) storage.size() * weightFruit;
-
-        return weight;
+        return storage.size() * storage.get(0).getWeight();
     }
 
     public boolean compare(Box<?> box) { //сравнение
