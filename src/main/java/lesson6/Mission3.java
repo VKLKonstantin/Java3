@@ -8,7 +8,7 @@ public class Mission3 {
         System.out.println(checkArray(a));
     }
 
-    public static boolean checkArray(int a[]) {//
+    public static boolean checkArray(int a[]) {
         int countOne = 0;
         int countFour = 0;
         for (int i = 0; i < a.length; i++) {
